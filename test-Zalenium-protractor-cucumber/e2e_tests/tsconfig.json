@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "removeComments": true,
+    "noLib":false,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "pretty": true,
+    "inlineSources": true,
+    "declaration": false,
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noImplicitUseStrict": false,
+    "noFallthroughCasesInSwitch": true,
+    "outDir": "build",
+    "lib":["es2017","dom"],
+    "typeRoots":[
+      "./node_modules/@types",
+      "./node_modules"
+    ],
+    "types": ["node", "protractor", "cucumber"]
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "compileOnSave":false
+}

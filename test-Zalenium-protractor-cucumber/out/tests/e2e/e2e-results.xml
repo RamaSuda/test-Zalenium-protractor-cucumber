@@ -1,0 +1,45 @@
+<testsuites>
+  
+  <testsuite name="to-search-keywords-in-google;searching-on-google-from-test1" tests="1" failures="0" skipped="0">
+    
+    <properties>
+      
+      <property name="@test1" value="true"></property>
+      
+      <property name="URI" value="features/suite-n/tests-tests/test1.feature"></property>
+      
+    </properties>
+    
+    <testcase name="Given I am on &quot;google&quot; search page" classname="to-search-keywords-in-google;searching-on-google-from-test1" time="0"></testcase>
+    
+  </testsuite>
+  
+  <testsuite name="to-search-keywords-in-google;searching-on-google-from-test2" tests="1" failures="0" skipped="0">
+    
+    <properties>
+      
+      <property name="@test1" value="true"></property>
+      
+      <property name="URI" value="features/suite-n/tests-tests/test2.feature"></property>
+      
+    </properties>
+    
+    <testcase name="Given I am on &quot;google&quot; search page" classname="to-search-keywords-in-google;searching-on-google-from-test2" time="0"></testcase>
+    
+  </testsuite>
+  
+  <testsuite name="to-search-keywords-in-google;searching-on-google-from-test3" tests="1" failures="0" skipped="0">
+    
+    <properties>
+      
+      <property name="@test1" value="true"></property>
+      
+      <property name="URI" value="features/suite-n/tests-tests/test3.feature"></property>
+      
+    </properties>
+    
+    <testcase name="Given I am on &quot;google&quot; search page" classname="to-search-keywords-in-google;searching-on-google-from-test3" time="0"></testcase>
+    
+  </testsuite>
+  
+</testsuites>

@@ -1,0 +1,78 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "To search keywords in google",
+    "line": 3,
+    "id": "to-search-keywords-in-google",
+    "tags": [
+      {
+        "name": "@test1",
+        "line": 1
+      }
+    ],
+    "uri": "features/suite-n/tests-tests/test3.feature",
+    "elements": [
+      {
+        "id": "to-search-keywords-in-google;searching-on-google-from-test3",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Searching on google from test3",
+        "tags": [
+          {
+            "name": "@test1",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "conf/cucumber.conf.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on \"google\" search page",
+            "match": {
+              "location": "step_definitions/login/homePage.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4213
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "conf/cucumber.conf.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 318
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

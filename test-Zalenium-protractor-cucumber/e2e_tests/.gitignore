@@ -1,0 +1,5 @@
+.tmp/
+build/
+features-backup/
+package-lock.json
+conf/protractor.conf.js

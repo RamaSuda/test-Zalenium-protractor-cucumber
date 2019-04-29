@@ -1,0 +1,9 @@
+{"level":"info","message":"*** Test Case: features/suite-n/tests-tests/test1.feature ***","timestamp":"2019-04-29T03:06:18.873Z"}
+{"level":"info","message":"*** Scenario: Searching on google from test1 ***","timestamp":"2019-04-29T03:06:18.874Z"}
+{"level":"debug","message":"Opening login page","timestamp":"2019-04-29T03:06:18.877Z"}
+{"level":"info","message":"*** Test case status result: passed ***","timestamp":"2019-04-29T03:06:22.030Z"}
+{"level":"info","message":"*** Final URL: https://angular.io/ ***","timestamp":"2019-04-29T03:06:22.541Z"}
+{"level":"info","message":"*** Time: 3.156 ***","timestamp":"2019-04-29T03:06:22.541Z"}
+{"level":"debug","message":"browser: 1556507180327 WARNING https://angular.io/polyfills.db62c48fe660a8684b3b.js 0 A preload for 'https://angular.io/generated/navigation.json' is found, but is not used because the request headers do not match.","timestamp":"2019-04-29T03:06:22.597Z"}
+{"level":"debug","message":"browser: 1556507180468 WARNING https://angular.io/polyfills.db62c48fe660a8684b3b.js 0 A preload for 'https://angular.io/generated/docs/index.json' is found, but is not used because the request headers do not match.","timestamp":"2019-04-29T03:06:22.597Z"}
+{"level":"debug","message":"Removing features/suite-n/tests-tests/test1.feature from reruns...","timestamp":"2019-04-29T03:06:22.601Z"}
