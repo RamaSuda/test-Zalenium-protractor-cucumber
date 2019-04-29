@@ -185,7 +185,7 @@ function getFeatures() {
 }
 
 function clearTmpDirs() {
-    if (!process.env.PRANCER_HOST) {
+    if (!process.env.HOST) {
         fs.removeSync('./.tmp');
         fs.removeSync('../out');
     }
