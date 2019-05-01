@@ -31,7 +31,11 @@ export let config: Config = {
         browserName: 'chrome',
         name: 'Zalenium - Protractor - chrome',
         shardTestFiles: true,
-        maxInstances: 1,
+        maxInstances: 10,
+        //This is optional; See onPrepare function
+        // chromeOptions: {
+        //     args: ['start-maximized']
+        // },
         deviceProperties: {
             device: 'MacBook Pro 13',
             platform: {
@@ -67,6 +71,16 @@ export let config: Config = {
         }
         return null;
     },
+
+    onPrepare:async () =>{
+        let width = 1930;
+        let height = 1090;
+        console.log("resizing the browser");
+        // browser.driver.manage().window().setSize(width, height); OR
+        browser.driver.manage().window().maximize();
+
+    },
+
     params: {
         csrfToken: "",
         featureFileData: [],

@@ -3,5 +3,8 @@ build/
 features-backup/
 package-lock.json
 conf/protractor.conf.js
-.idea/
+*node_modules
+*out
+*.idea/
+
 
